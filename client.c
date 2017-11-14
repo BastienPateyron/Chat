@@ -13,7 +13,7 @@ int main (int argc, char *argv[])
     char buffer_addresse[500];
     ssize_t taille_envoyee;
 
-    //
+    
     char buffer_saisie[TAILLE_SAISIE]; /* Buffer de saisie */
     memset(buffer_saisie, '\0', sizeof(TAILLE_SAISIE)); /* Initialisation du buffer */
     /*
