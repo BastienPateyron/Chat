@@ -76,7 +76,7 @@ int main(){
             else nb_clients++;
 
             printf(	    "Le client %d s'est connecté ... %s : %d\n"
-                , num_client++ /* On met le socket au numéro suivant */
+                , num_client /* On met le socket au numéro suivant */
                 , inet_ntop(	AF_INET
                     ,	&(adresse_client.sin_addr)
                     ,	buffer_adresse

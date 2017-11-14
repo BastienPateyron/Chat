@@ -41,7 +41,7 @@ int main (int argc, char *argv[])
     adresse_serveur.sin_port = htons (52000);
     inet_pton (AF_INET, "127.0.0.1", &(adresse_serveur.sin_addr.s_addr));
 
-    if ( connect(   
+    if ( connect(
 		socket_connection
 		,(const struct sockaddr *) &adresse_serveur
 		,sizeof( adresse_serveur)
